@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="X-UA-Compatible" content="ie-edge">
+    <title>login</title>
+    <style>
+        /* body { */
+            /* background-color: rgba(61, 57, 57, 0.732); */
+        /* } */
+        body{
+            background-color: #ffff;
+            
+        }
+
+        .login {
+            border: 1px solid black;
+            color: white;
+            width: 500px;
+            height: 600px;
+            background: url("C:\Users\Asus\Pictures\Screenshots\Screenshot 2024-10-04 234223.png");
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+            border-radius: 25px;
+            box-shadow: 0px 0px 25px 20px rgba(0, 0, 0, 0.75);
+            margin: 5% 30%;
+            display: inline-block;
+        }
+
+        form {
+            display: block;
+            box-sizing: border-box;
+            padding: 50px;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: brightness(10%);
+            flex-direction: column;
+            display: flex;
+            gap: 20px;
+
+        }
+
+        h2 {
+            font-weight: normal;
+            font-size: 30px;
+            margin-bottom: 70px;
+            text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.75);
+        }
+
+        label {
+            color: rgba(255px 255px 255px 0.8);
+            text-transform: uppercase;
+            font-size: 20px;
+            padding-left: 1%;
+            letter-spacing: 1px;
+        }
+
+        input {
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+            height: 40PX;
+            line-height: 40PX;
+            padding: 0px 20px;
+            border: none;
+            margin-bottom: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        button{
+            cursor: pointer;
+            background-color: rgb(144, 232, 241);
+            border-radius: 25px;
+            height: 40PX;
+            line-height: 40PX;
+            border-radius: 40px;
+            padding: 0px 20px;
+            border: none;
+            margin-bottom: 20px;
+            color: black;
+            font-size: 5px;
+            margin: 10px 0px;
+            box-shadow: 0px 0px 5px rgba(0px, 0px, 0px, 0.3);
+        }
+
+        a {
+            color: aqua;
+            text-decoration: solid 23px bisque;
+            font-size: 1.1rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="login">
+        <form action="g12.py">
+            <h2>LOGIN</h2>
+            <label for="USERNAME">
+                USERNAME <input type="text" id="USERNAME">
+            </label>
+            <label for="password">
+                PASSWORD <input type="password" id="password">
+            </label>
+            <button>
+                <label for="SUBMITNOW">
+                    <input type="submit" value="SUBMIT NOW" id="SUBMITNOW">
+                </label>
+            </button>
+            <label>Don't have an account?&nbsp;<span><a href="register.html">Register</a></span></label>
+        </form>
+    </div>
+
+</body>
+
+</html>
